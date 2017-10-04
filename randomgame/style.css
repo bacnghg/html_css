@@ -1,0 +1,144 @@
+
+html{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+body{
+	font-family: "Roboto",sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+.container{
+position: relative;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin: auto;
+}
+.row{
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+	float: left;
+}
+.col-1{
+		width: 8.3333%;
+	}
+	.col-2{
+		width: 16.6666%;
+	}
+	.col-3{
+		width: 25%;
+	}
+	.col-4{
+		width: 33.3333%;
+	}
+	.col-5{
+
+	}
+	.col-6{
+		width: 50%;
+	}
+	.col-7{
+		width:58.3333%;
+	}
+	.col-8{
+		width: 66.6666%
+	}
+	.col-9{
+		width: 75%;
+	}
+	.col-10{
+
+	}
+	.col-11{
+
+	}
+	.col-12{
+		width: 100%;
+	}	
+.picker-left{
+	background: #00bcd4;
+	height: 350px;
+
+}
+.picker-left h3{
+	float: left;
+    padding: 20px;
+    font-size: 40px;
+    color: #fff;
+}
+.table{
+	width: 100%;
+}
+.table tr td,.table tr th{
+	border: 1px solid #eee;
+    padding: 12px;
+    text-align: center;
+
+}
+.table tr td:hover{
+	cursor: pointer;
+}
+.table tr td.select{
+	background: #337ab7;
+	border-color: #337ab7;
+	color: #fff;
+}
+.table caption{
+	    margin-top: -15px;
+    padding-bottom: 15px;
+}
+.dateHeader{
+	float: left;
+	width: 100%;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.dateHeader caption{
+	text-align: center;
+}
+.dateHeader i{
+	margin-top: 10px;
+}
+.dateHeader i:nth-child(1){
+	float: left;
+}
+.dateHeader i:nth-child(2){
+	float: right;
+}
+.btn{
+	border:1px solid #ccc;
+	border-radius: 20px;
+	padding: 8px; 12px;
+	font-weight: 600;
+}
+.pull-right{
+	float: right;
+	margin-top: 20px;
+}
+a{
+	text-decoration: none;
+}
+@media (max-width: 1200px) {
+	.container{
+		width:1170px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+.container{
+		width:1170px;
+	}
+}
+	
+@media (min-width:768px) and (max-width: 991px) {
+	
+}
+ 
+
